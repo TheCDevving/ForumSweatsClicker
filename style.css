@@ -1,0 +1,119 @@
+body {
+    background-color: #f6e6f9;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+#clicker {
+    text-align: center;
+}
+
+#clickButton {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+}
+
+#clickButton:hover {
+    transform: scale(1.1);
+}
+
+#bobuxDisplay {
+    background-color: #f7d3e2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#bobuxCount {
+    font-size: 24px;
+    margin: 0;
+    color: #d42d64;
+}
+
+#bobuxPerSecond {
+    font-size: 16px;
+    margin: 0;
+    color: #8d174e;
+}
+
+#upgrades {
+    width: 300px;
+    background-color: #ddb0d4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #8d174e;
+}
+
+.upgrade {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #eac0da;
+    border-radius: 5px;
+}
+
+.upgradeName {
+    font-weight: bold;
+    font-size: 18px;
+    color: #8d174e;
+    margin: 0;
+}
+
+.upgradeCost, .upgradeRate {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #d42d64;
+}
+
+.upgradeButton {
+    background-color: #d42d64;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.upgradeButton:hover {
+    background-color: #8d174e;
+}
+/* Rest of the CSS */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ddb0d4;
+    color: #8d174e;
+}
+
+.version {
+    font-size: 14px;
+    margin: 0;
+}
+
+.version::after {
+    content: " | ";
+}
+
+.version:last-child::after {
+    content: "";
+}
+
+.footerText {
+    font-size: 14px;
+    margin: 0;
+}
